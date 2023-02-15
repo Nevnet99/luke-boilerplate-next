@@ -16,9 +16,53 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@animations/*": [
+        "src/components/animations/*"
+      ],
+      "@contexts/*": [
+        "src/contexts/*"
+      ],
+      "@helpers/*": [
+        "src/helpers/*"
+      ],
+      "@hooks/*": [
+        "src/hooks/*"
+      ],
+      "@templates/*": [
+        "src/components/templates/*"
+      ],
+      "@models": [
+        "src/models/index.ts"
+      ],
+      "@atoms/*": [
+        "src/components/atoms/*"
+      ],
+      "@molecules/*": [
+        "src/components/molecules/*"
+      ],
+      "@organisms/*": [
+        "src/components/organisms/*"
+      ],
+      "@stories/*": [
+        "src/components/stories/*"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ],
+      "@mocks/*": [
+        "src/mocks/*"
+      ],
+      "@constants/*": [
+        "src/constants/*"
+      ],
+      "@tests/*": [
+        "src/tests/*"
+      ],
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "vite.config.js"],
   "exclude": ["node_modules"]
 }
