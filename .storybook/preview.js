@@ -46,6 +46,11 @@ export const parameters = {
       },
     ],
   },
+  options: {
+    storySort: {
+      order: ["Styleguide", "Atoms", "Molecules", "Organisms", "Templates"],
+    },
+  }
 };
 
 export const decorators = [
