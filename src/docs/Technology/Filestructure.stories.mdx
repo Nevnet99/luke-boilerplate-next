@@ -1,14 +1,16 @@
 import { Meta, Story } from "@storybook/addon-docs";
 
-<Meta title="Styleguide/4. File Structure" />
+<Meta title="Technology/2. File Structure" />
 
 <Story name="default">
   <h1>File structure</h1>
+  <hr />
   <p>
     The filestructure of the repo consits of a main src/ folder containing all
     our source code and a public/ folder containing all our static assets.
   </p>
   <h2>src/</h2>
+  <hr />
   <p>
     The src/ folder contains all our source code. The folder is structured as
     follows:
@@ -69,4 +71,21 @@ import { Meta, Story } from "@storybook/addon-docs";
   </p>
   <h3>tests</h3>
   <p>The tests/ folder contains our tests global config.</p>
+  <h2>.plop</h2>
+  <hr />
+  <p>
+    The .plop folder contains our plop config. Plop is a code generator that
+    allows us to generate boilerplate code for our components. Please see the{" "}
+    <a href="/?path=/docs/styleguide-4-plop--default-story">Plop Page</a> docs
+    for more information.
+  </p>
+  <h2>public/</h2>
+  <hr />
+  <p>The public/ folder contains all our static assets.</p>
+  <h2>.husky</h2>
+  <hr />
+  <p>
+    The .husky folder contains our husky config. Husky is a git hook manager
+    that allows us to run scripts before or after git commands.
+  </p>
 </Story>

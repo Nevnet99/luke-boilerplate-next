@@ -48,7 +48,7 @@ export const parameters = {
   },
   options: {
     storySort: {
-      order: ["Styleguide",  ['1. Intro', '2. Technology', '3.Atomic Design', "*"], "Atoms", "Molecules", "Organisms", "Templates"],
+      order: ["Technology",  ['1. Technology', '2. File Structure', '3.Atomic Design', "*"], "Styleguide", ["1. Typography", "2. Colors"], "Atoms", "Molecules", "Organisms", "Templates"],
     },
   }
 };
